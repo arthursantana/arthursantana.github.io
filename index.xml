@@ -15,7 +15,11 @@
       <pubDate>Wed, 24 Aug 2016 01:06:27 -0300</pubDate>
       
       <guid>https://arthursantana.github.io/posts/test/</guid>
-      <description>&lt;p&gt;This post is going to be removed. Please comment below!&lt;/p&gt;
+      <description>
+
+&lt;h1 id=&#34;biiiig-header&#34;&gt;Biiiig header&lt;/h1&gt;
+
+&lt;h2 id=&#34;this-post-is-going-to-be-removed-please-comment-below&#34;&gt;This post is going to be removed. Please comment below!&lt;/h2&gt;
 
 &lt;p&gt;I&amp;rsquo;m testing. I don&amp;rsquo;t remember how to write markdown. And I want mathjax to work.&lt;/p&gt;
 
@@ -43,6 +47,24 @@
 \forall x \in X, \quad \exists y \leq \epsilon
 $$&lt;/div&gt;
 &lt;/p&gt;
+
+&lt;h3 id=&#34;ok-now-some-c-code&#34;&gt;Ok, now some C code&lt;/h3&gt;
+
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;x&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #ae81ff&#34;&gt;10&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3 id=&#34;then-go-code&#34;&gt;Then Go code&lt;/h3&gt;
+
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;x&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color: #ae81ff&#34;&gt;10&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3 id=&#34;then-bash&#34;&gt;Then Bash&lt;/h3&gt;
+
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;ls &lt;span style=&#34;color: #f8f8f2&#34;&gt;|&lt;/span&gt; grep &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;nothing&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
 
 &lt;script type=&#34;text/javascript&#34;
   src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;&gt;
