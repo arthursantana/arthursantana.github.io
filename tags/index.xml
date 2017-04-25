@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Arthur Santana</title>
+    <link>https://arthursantana.github.io/tags/</link>
+    <description>Recent content in Tags on Arthur Santana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Aug 2016 08:27:43 -0300</lastBuildDate>
+    
+	<atom:link href="https://arthursantana.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linear Algebra</title>
+      <link>https://arthursantana.github.io/tags/linear-algebra/</link>
+      <pubDate>Wed, 24 Aug 2016 08:27:43 -0300</pubDate>
+      
+      <guid>https://arthursantana.github.io/tags/linear-algebra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathematics</title>
+      <link>https://arthursantana.github.io/tags/mathematics/</link>
+      <pubDate>Wed, 24 Aug 2016 08:27:43 -0300</pubDate>
+      
+      <guid>https://arthursantana.github.io/tags/mathematics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
