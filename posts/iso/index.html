@@ -1,135 +1,100 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-us">
 	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="author" content="Arthur Santana">
-		<meta name="description" content="Personal website of Arthur Santana.">
-		<meta name="generator" content="Hugo 0.20.7" />
-		<title>Derivation of the Isometric Projection Formula &middot; Arthur Santana</title>
-		<link rel="shortcut icon" href="https://arthursantana.github.io/images/favicon.ico">
-		<link rel="stylesheet" href="https://arthursantana.github.io/css/style.css">
-		<link rel="stylesheet" href="https://arthursantana.github.io/css/highlight.css">
-		
-		<link rel="stylesheet" href="https://arthursantana.github.io/style.css">
-		
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Arthur Santana">
+<meta name="description" content="Personal website of Arthur Santana.">
+<meta name="generator" content="Hugo 0.65.3" />
+<title>Derivation of the Isometric Projection Formula</title>
+<link rel="shortcut icon" href="https://arthursantana.github.io/images/favicon.ico">
+<link rel="stylesheet" href="https://arthursantana.github.io/css/style.css">
+<link rel="stylesheet" href="https://arthursantana.github.io/css/highlight.css">
 
-		
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
-		
+<link rel="stylesheet" href="https://arthursantana.github.io/style.css">
 
-		
-		<link href="https://arthursantana.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Arthur Santana" />
-		
 
-		<meta property="og:title" content="Derivation of the Isometric Projection Formula" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+
+
+
+<link href="https://arthursantana.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Arthur Santana" />
+
+
+<meta property="og:title" content="Derivation of the Isometric Projection Formula" />
 <meta property="og:description" content="A very simple proof" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://arthursantana.github.io/posts/iso/" />
+<meta property="article:published_time" content="2016-08-24T08:27:43-03:00" />
+<meta property="article:modified_time" content="2016-08-24T08:27:43-03:00" />
 
 
-
-<meta property="article:published_time" content="2016-08-24T08:27:43-03:00"/>
-<meta property="article:modified_time" content="2016-08-24T08:27:43-03:00"/>
-
-
-
-
-
-
-
-
-
-
-
-	    
-	    
 <meta itemprop="name" content="Derivation of the Isometric Projection Formula">
 <meta itemprop="description" content="A very simple proof">
-
-
+<meta itemprop="datePublished" content="2016-08-24T08:27:43-03:00" />
 <meta itemprop="dateModified" content="2016-08-24T08:27:43-03:00" />
 <meta itemprop="wordCount" content="1054">
 
 
 
-<meta itemprop="keywords" content="linear-algebra,mathematics," />
-
-	    
-
-  <meta name="twitter:card" content="summary"/>
-
-
-
-<meta name="twitter:text:title" content="Derivation of the Isometric Projection Formula"/>
+<meta itemprop="keywords" content="mathematics,linear algebra," />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Derivation of the Isometric Projection Formula"/>
 <meta name="twitter:description" content="A very simple proof"/>
 
 
-	</head>
-
-    <body>
-       <nav class="main-nav">
-	
+    </head>
+<body>
+    <nav class="main-nav">
 	
 		<a href='https://arthursantana.github.io/'> <span class="arrow">←</span>Home</a>
 	
 
 	
-		<a href='https://arthursantana.github.io/about'>About</a>
-	
 
 	
-	<a class="cta" href="https://arthursantana.github.io/index.xml">Subscribe</a>
+		<a class="cta" href="https://arthursantana.github.io/index.xml">Subscribe</a>
 	
 </nav>
 
-        <section id="wrapper">
-            <article class="post">
-                <header>
-                    <h1>Derivation of the Isometric Projection Formula</h1>
-                    <h2 class="headline">
-                    August 24, 2016 
-                    <br>
-                    
-                    
-                        
-                            <a href="https://arthursantana.github.io/tags/mathematics">mathematics</a>
-                        
-                            <a href="https://arthursantana.github.io/tags/linear-algebra">linear algebra</a>
-                        
-                    
-                    
-                    </h2>
-                </header>
-                <section id="post-body">
-                    
-
-<p>This post was inspired by some discussion on <a href="http://bannalia.blogspot.com.br/2008/02/filmation-math.html">this cool 2008 article</a> by Joaquín M. López Muñoz. Having just recently watched <a href="http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/">Gilbert Strang&rsquo;s OCW Linear Algebra course</a>, I could not resist trying to prove the projection formula in Joaquín&rsquo;s article.</p>
-
+    <section id="wrapper">
+        
+        
+<article class="post">
+    <header>
+        <h1>Derivation of the Isometric Projection Formula</h1>
+        <h2 class="subtitle">A very simple proof</h2>
+        <h2 class="headline">
+        August 24, 2016
+        <br>
+        
+        
+            
+                <a href="https://arthursantana.github.io/tags/mathematics">mathematics</a>
+            
+                <a href="https://arthursantana.github.io/tags/linear-algebra">linear algebra</a>
+            
+        
+        
+        </h2>
+    </header>
+    <section id="post-body">
+        <p>This post was inspired by some discussion on <a href="http://bannalia.blogspot.com.br/2008/02/filmation-math.html">this cool 2008 article</a> by Joaquín M. López Muñoz. Having just recently watched <a href="http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/">Gilbert Strang&rsquo;s OCW Linear Algebra course</a>, I could not resist trying to prove the projection formula in Joaquín&rsquo;s article.</p>
 <h2 id="definition-of-the-problem">Definition of the problem</h2>
-
 <p>If you don&rsquo;t know what an isometric projection is, please check the <a href="https://en.wikipedia.org/wiki/Isometric_projection">Wikipedia article</a> for a nice introduction. Here I&rsquo;ll try to define it in terms of vectors.</p>
-
 <p>First, consider the vector <code>$z$</code> equal to <code>$\begin{bmatrix}1&amp;1&amp;1\end{bmatrix}^T$</code>. Now let <code>$P$</code> be the plane normal to <code>$z$</code> that crosses the origin. We can choose vectors <code>$x$</code> and <code>$y$</code> such that they form an orthogonal basis for <code>$P$</code> and such that the <a href="https://en.wikipedia.org/wiki/Orthographic_projection">orthographic projection</a> (what we usually understand by the projection of a vector) of <code>$k$</code> on <code>$P$</code> is proportional to <code>$y$</code>, with a positive multiplicative constant.</p>
-
-<p><img src="/axes.png" alt="Axes on place" /></p>
-
+<p><img src="/axes.png" alt="Axes on place"></p>
 <p>Please note:</p>
-
 <ol>
 <li>the <code>$z$</code> vector is orthogonal to your monitor.</li>
 <li>the <code>$k$</code> vector is <em>not</em> parallel to your monitor. It is pointing slightly to you, just as much as <code>$i$</code> and <code>$j$</code>. That&rsquo;s what isometry is about, if you rotated the axes 120 degrees around the line in the direction of <code>$z$</code>, you would have the same picture, just changing the names of the vectors.</li>
 <li>I&rsquo;m using a right-handed coordinate system. Using left-handed coordinates would switch the signs in our final projection matrix.</li>
 </ol>
-
 <p>Now we have a perfect model of what we wanted: we have a camera looking at the origin, aligned vertically, equally close to each of the axes. If we were rendering a scene, we would translate the camera around, but we wouldn&rsquo;t change the vectors that determine the direction and rotation around <code>$z$</code>. We also have an orthogonal basis for the screen, which allows us to locate projected vectors correctly.</p>
-
 <p>But there&rsquo;s a catch: if we choose just any arbitrary vectors for the basis, we might end up with the wrong image. If <code>$x$</code> and <code>$y$</code> have different norms, the image will be stretched vertically or horizontally, depending on whose norm is bigger. Because of this, we will choose vectors with the same norm. Specifically, we&rsquo;ll choose them with norm one, which will make calculations easier later on.</p>
-
 <p>Also note that <code>$z$</code> is not normalized. We will normalize it too, so that we have a full orthonormal basis for <code>$\mathbb{R^3}$</code>.</p>
-
 <p>To choose our vectors, let&rsquo;s consider the unit vectors in each direction of the canonical basis,
 <div>$$
 \hat{i} =
@@ -146,15 +111,10 @@
 \end{bmatrix}
 $$</div>
 </p>
-
 <p>Now we define tree vectors <code>$a = \hat{k}-\hat{i}$</code>, <code>$b = \hat{k}-\hat{j}$</code> and <code>$c = \hat{j}-\hat{i}$</code>, all in <code>$P$</code>, as in the image below:</p>
-
-<p><img src="/unitvectors.png" alt="Choosing our basis" /></p>
-
+<p><img src="/unitvectors.png" alt="Choosing our basis"></p>
 <p>We can then set <code>$\hat{x}$</code> to be the normalized <code>$c$</code>, and <code>$\hat{y}$</code> to be the normalized result of <code>$a + b$</code>. We use hats from now on to make it explicit that these vectors have norm equal to one (I&rsquo;ll keep the ambiguity in this phrase because it sounds funny).</p>
-
 <p>Thus we have (calculations omitted, just divide by the norm to make the vectors into unit vectors):</p>
-
 <div>$$
 \hat{x} =
 \begin{bmatrix}
@@ -170,19 +130,13 @@ $$</div>
 \end{bmatrix}
 $$</div>
 
-
 <p>You can check that <code>$x$</code>, <code>$y$</code> and <code>$z$</code> are all orthogonal to each other (inner products are equal to 0) and have norm one.</p>
-
 <p>Now that we have an orthonormal basis aligned to the screen, we can define the problem easily:</p>
-
 <blockquote>
 <p>Given a vector <code>$v$</code> expressed in the canonical basis, we want it&rsquo;s projection on <code>$P$</code>, expressed in terms of <code>$x$</code>, <code>$y$</code> and <code>$z$</code>.</p>
 </blockquote>
-
 <p>Actually, the <code>$z$</code> part will always be zero, since <code>$z$</code> is the component orthogonal to the plane. Projecting a vector on <code>$P$</code> is equivalent to zeroing this component, and that&rsquo;s how we are going to do it.</p>
-
 <h2 id="change-of-basis">Change of basis</h2>
-
 <p>Now we need to convert <code>$v$</code> into terms of our new basis. First, notice that the matrix
 <div>$$
 M=
@@ -205,14 +159,12 @@ M^TM=I
 $$</div>
 
 That is, <code>$M^{-1} = M^T$</code>. We only need to multiply <code>$M^Tv$</code> to find <code>$v$</code> in our new basis. Also, because we don&rsquo;t care about the <code>$z$</code> component, we can simply select the first two rows of <code>$M^{-1}$</code>. The projection is automatic, because it is orthographic. Here is our transformation matrix:</p>
-
 <div>$$
 \begin{bmatrix}
 -\sqrt{2}/2& \sqrt{2}/2& 0\\
 -\sqrt{6}/6& -\sqrt{6}/6& \sqrt{6}/3
 \end{bmatrix}
 $$</div>
-
 
 <p>We can simplify this by scaling down the whole image (dividing) by <code>$\sqrt{6}/6$</code> to get our final transformation matrix:
 <div>$$
@@ -222,38 +174,31 @@ $$</div>
 \end{bmatrix}
 $$</div>
 </p>
-
 <p>Notice that this is the same transformation in Joaquín&rsquo;s original post, except for a scaling constant of 2. Also notice that it&rsquo;s the same matrix given in Wikipedia&rsquo;s proof using rotation matrices (I have no idea how they came up with that crazy angle of 35.264º. If you know, please tell me).</p>
-
 <h2 id="quick-note-on-projection-matrices">Quick note on projection matrices</h2>
-
 <p>The first time I tried to prove this result, I actually calculated the projection matrix <code>$R = A(A^TA)^{-1}A^T$</code>, that produces the projected vector in terms of the original canonical basis. After that, I found that I had to convert to the screen basis, using the matrix <code>$M^{-1}$</code> that we found above. When I tried to compose the transformations, something remarkable came up: <code>$R*M^{-1}$</code> is <em>equal</em> to <code>$M^{-1}$</code>, only with last row zeroed! This is exactly what we should expect, and is why we don&rsquo;t need to do the projection in 3 dimensions at all. By changing to a basis which has a component orthogonal to the plane, we can simply discard this component.</p>
-
 <h2 id="conclusion">Conclusion</h2>
-
 <p>This was a nice application of basic linear algebra. The proof is really simple, once you find how to select the correct vectors for the basis.</p>
-
 <p>In the future, I hope to write about GPU z-buffers and how to render sprites in an isometric game without using a topological sort. Before that, though, I have to make it work.</p>
-
 <p>Please comment below if you have anything to add.</p>
-
 <script type="text/javascript"
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
 
-                </section>
-            </article>
-            <footer id="post-meta" class="clearfix">
-                
-                        <img class="avatar" src="https://arthursantana.github.io/images/avatar.png">
-                        <div>
-                            <span class="dark">Arthur Santana</span>
-                            <span>I study Computer Science and run a small software company.</span>
-                        </div>
-                    
-                <section id="sharing">
-                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2farthursantana.github.io%2fposts%2fiso%2f - Derivation%20of%20the%20Isometric%20Projection%20Formula "><span class="icon-twitter"> Tweet</span></a>
+    </section>
+</article>
+
+<footer id="post-meta" class="clearfix">
+    
+    <img class="avatar" src="https://arthursantana.github.io/images/avatar.png">
+    <div>
+        <span class="dark">Arthur Santana</span>
+        <span>I study Computer Science and run a small software company.</span>
+    </div>
+    
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2farthursantana.github.io%2fposts%2fiso%2f - Derivation%20of%20the%20Isometric%20Projection%20Formula "><span class="icon-twitter"> tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
@@ -263,43 +208,41 @@ $$</div>
     return false;"><span class="icon-facebook-rect"> Share</span>
 </a>
 
-                </section>
-            </footer>
+    </section>
+</footer>
 
-            <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'arthursantana';
-    var disqus_identifier = 'https:\/\/arthursantana.github.io\/posts\/iso\/';
-    var disqus_title = 'Derivation of the Isometric Projection Formula';
-    var disqus_url = 'https:\/\/arthursantana.github.io\/posts\/iso\/';
-
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
     (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "arthursantana" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
-            <ul id="post-list" class="archive readmore">
+<ul id="post-list" class="archive readmore">
     <h3>Read more</h3>
 
     
     
     
-        
-   
-    
-        
-        <li>
-            <a href="https://arthursantana.github.io/posts/iso/">Derivation of the Isometric Projection Formula<aside class="dates">Aug 24</aside></a>
-        </li>
-        
-   
 </ul>
 
-            <footer id="footer">
+
+
+        <footer id="footer">
     
         <div id="social">
 
@@ -316,14 +259,13 @@ $$</div>
     
     <p class="small">
     
-        © Copyright 2017 Arthur Santana
+        © Copyright 2020 Arthur Santana
     
     </p>
 </footer>
 
-        </section>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="https://arthursantana.github.io/js/main.js"></script>
 <script src="https://arthursantana.github.io/js/highlight.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
@@ -334,5 +276,5 @@ $$</div>
 
 
 
-    </body>
+</body>
 </html>
